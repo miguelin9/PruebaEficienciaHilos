@@ -1,0 +1,191 @@
+package eficiencia;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author Miguelin
+ */
+public class AlgoritmosTest {
+
+    public AlgoritmosTest() {
+    }
+
+    @Test
+    public void testPrimo0() {
+        assertFalse(Algoritmos.primo3(1));
+        assertTrue(Algoritmos.primo3(2));
+        assertTrue(Algoritmos.primo3(3));
+        assertFalse(Algoritmos.primo3(4));
+        assertTrue(Algoritmos.primo3(5));
+        assertFalse(Algoritmos.primo3(6));
+        assertTrue(Algoritmos.primo3(7));
+        assertFalse(Algoritmos.primo3(8));
+        assertFalse(Algoritmos.primo3(9));
+        assertFalse(Algoritmos.primo3(10));
+        assertTrue(Algoritmos.primo3(11));
+        assertFalse(Algoritmos.primo3(12));
+        assertTrue(Algoritmos.primo3(13));
+        assertFalse(Algoritmos.primo3(14));
+        assertFalse(Algoritmos.primo3(15));
+        assertFalse(Algoritmos.primo3(16));
+        assertTrue(Algoritmos.primo3(17));
+        assertFalse(Algoritmos.primo3(18));
+        assertTrue(Algoritmos.primo3(19));
+        assertFalse(Algoritmos.primo3(20));
+        assertTrue(Algoritmos.primo3(23));
+        assertTrue(Algoritmos.primo3(29));
+        assertTrue(Algoritmos.primo3(31));
+        assertTrue(Algoritmos.primo3(37));
+        assertTrue(Algoritmos.primo3(41));
+        assertTrue(Algoritmos.primo3(43));
+        assertTrue(Algoritmos.primo3(47));
+        assertTrue(Algoritmos.primo3(53));
+        assertTrue(Algoritmos.primo3(59));
+        assertTrue(Algoritmos.primo3(61));
+        assertTrue(Algoritmos.primo3(67));
+        assertTrue(Algoritmos.primo3(71));
+        assertTrue(Algoritmos.primo3(73));
+        assertTrue(Algoritmos.primo3(79));
+        assertTrue(Algoritmos.primo3(83));
+        assertTrue(Algoritmos.primo3(89));
+        assertTrue(Algoritmos.primo3(97));
+        assertFalse(Algoritmos.primo3(-5));
+        assertFalse(Algoritmos.primo3(0));
+        assertFalse(Algoritmos.primo3(66));
+    }
+
+    @Test
+    public void testPrimo1() {
+        assertFalse(Algoritmos.primo3(1));
+        assertTrue(Algoritmos.primo3(2));
+        assertTrue(Algoritmos.primo3(3));
+        assertFalse(Algoritmos.primo3(4));
+        assertTrue(Algoritmos.primo3(5));
+        assertFalse(Algoritmos.primo3(6));
+        assertTrue(Algoritmos.primo3(7));
+        assertFalse(Algoritmos.primo3(8));
+        assertFalse(Algoritmos.primo3(9));
+        assertFalse(Algoritmos.primo3(10));
+        assertTrue(Algoritmos.primo3(11));
+        assertFalse(Algoritmos.primo3(12));
+        assertTrue(Algoritmos.primo3(13));
+        assertFalse(Algoritmos.primo3(14));
+        assertFalse(Algoritmos.primo3(15));
+        assertFalse(Algoritmos.primo3(16));
+        assertTrue(Algoritmos.primo3(17));
+        assertFalse(Algoritmos.primo3(18));
+        assertTrue(Algoritmos.primo3(19));
+        assertFalse(Algoritmos.primo3(20));
+        assertTrue(Algoritmos.primo3(23));
+        assertTrue(Algoritmos.primo3(29));
+        assertTrue(Algoritmos.primo3(31));
+        assertTrue(Algoritmos.primo3(37));
+        assertTrue(Algoritmos.primo3(41));
+        assertTrue(Algoritmos.primo3(43));
+        assertTrue(Algoritmos.primo3(47));
+        assertTrue(Algoritmos.primo3(53));
+        assertTrue(Algoritmos.primo3(59));
+        assertTrue(Algoritmos.primo3(61));
+        assertTrue(Algoritmos.primo3(67));
+        assertTrue(Algoritmos.primo3(71));
+        assertTrue(Algoritmos.primo3(73));
+        assertTrue(Algoritmos.primo3(79));
+        assertTrue(Algoritmos.primo3(83));
+        assertTrue(Algoritmos.primo3(89));
+        assertTrue(Algoritmos.primo3(97));
+        assertFalse(Algoritmos.primo3(-5));
+        assertFalse(Algoritmos.primo3(0));
+        assertFalse(Algoritmos.primo3(66));
+    }
+
+    @Test
+    public void testPrimo2() {
+        assertFalse(Algoritmos.primo3(1));
+        assertTrue(Algoritmos.primo3(2));
+        assertTrue(Algoritmos.primo3(3));
+        assertFalse(Algoritmos.primo3(4));
+        assertTrue(Algoritmos.primo3(5));
+        assertFalse(Algoritmos.primo3(6));
+        assertTrue(Algoritmos.primo3(7));
+        assertFalse(Algoritmos.primo3(8));
+        assertFalse(Algoritmos.primo3(9));
+        assertFalse(Algoritmos.primo3(10));
+        assertTrue(Algoritmos.primo3(11));
+        assertFalse(Algoritmos.primo3(12));
+        assertTrue(Algoritmos.primo3(13));
+        assertFalse(Algoritmos.primo3(14));
+        assertFalse(Algoritmos.primo3(15));
+        assertFalse(Algoritmos.primo3(16));
+        assertTrue(Algoritmos.primo3(17));
+        assertFalse(Algoritmos.primo3(18));
+        assertTrue(Algoritmos.primo3(19));
+        assertFalse(Algoritmos.primo3(20));
+        assertTrue(Algoritmos.primo3(23));
+        assertTrue(Algoritmos.primo3(29));
+        assertTrue(Algoritmos.primo3(31));
+        assertTrue(Algoritmos.primo3(37));
+        assertTrue(Algoritmos.primo3(41));
+        assertTrue(Algoritmos.primo3(43));
+        assertTrue(Algoritmos.primo3(47));
+        assertTrue(Algoritmos.primo3(53));
+        assertTrue(Algoritmos.primo3(59));
+        assertTrue(Algoritmos.primo3(61));
+        assertTrue(Algoritmos.primo3(67));
+        assertTrue(Algoritmos.primo3(71));
+        assertTrue(Algoritmos.primo3(73));
+        assertTrue(Algoritmos.primo3(79));
+        assertTrue(Algoritmos.primo3(83));
+        assertTrue(Algoritmos.primo3(89));
+        assertTrue(Algoritmos.primo3(97));
+        assertFalse(Algoritmos.primo3(-5));
+        assertFalse(Algoritmos.primo3(0));
+        assertFalse(Algoritmos.primo3(66));
+    }
+
+    @Test
+    public void testPrimo3() {
+        assertFalse(Algoritmos.primo3(1));
+        assertTrue(Algoritmos.primo3(2));
+        assertTrue(Algoritmos.primo3(3));
+        assertFalse(Algoritmos.primo3(4));
+        assertTrue(Algoritmos.primo3(5));
+        assertFalse(Algoritmos.primo3(6));
+        assertTrue(Algoritmos.primo3(7));
+        assertFalse(Algoritmos.primo3(8));
+        assertFalse(Algoritmos.primo3(9));
+        assertFalse(Algoritmos.primo3(10));
+        assertTrue(Algoritmos.primo3(11));
+        assertFalse(Algoritmos.primo3(12));
+        assertTrue(Algoritmos.primo3(13));
+        assertFalse(Algoritmos.primo3(14));
+        assertFalse(Algoritmos.primo3(15));
+        assertFalse(Algoritmos.primo3(16));
+        assertTrue(Algoritmos.primo3(17));
+        assertFalse(Algoritmos.primo3(18));
+        assertTrue(Algoritmos.primo3(19));
+        assertFalse(Algoritmos.primo3(20));
+        assertTrue(Algoritmos.primo3(23));
+        assertTrue(Algoritmos.primo3(29));
+        assertTrue(Algoritmos.primo3(31));
+        assertTrue(Algoritmos.primo3(37));
+        assertTrue(Algoritmos.primo3(41));
+        assertTrue(Algoritmos.primo3(43));
+        assertTrue(Algoritmos.primo3(47));
+        assertTrue(Algoritmos.primo3(53));
+        assertTrue(Algoritmos.primo3(59));
+        assertTrue(Algoritmos.primo3(61));
+        assertTrue(Algoritmos.primo3(67));
+        assertTrue(Algoritmos.primo3(71));
+        assertTrue(Algoritmos.primo3(73));
+        assertTrue(Algoritmos.primo3(79));
+        assertTrue(Algoritmos.primo3(83));
+        assertTrue(Algoritmos.primo3(89));
+        assertTrue(Algoritmos.primo3(97));
+        assertFalse(Algoritmos.primo3(-5));
+        assertFalse(Algoritmos.primo3(0));
+        assertFalse(Algoritmos.primo3(66));
+    }
+
+}
